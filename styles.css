@@ -1,0 +1,92 @@
+header{
+    font-size: 60px;
+    font-family: Brush Script MT;
+    margin: 0%;
+}
+
+section.feature-box.Links{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+}
+/*We use flex in the section class rather than the div class. This is because flex must be used within the parent class,
+  and div is only being used within the section class. Having the flex-direction set to row makes the divs allign in a row.
+  The margins being on auto make it so the divs will be look the same no matter what resolution the tab is.
+*/
+section.feature-box.Links div {
+    background-color: rgb(123, 121, 121);
+    margin: auto;
+    padding-top: 5px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 5px;
+    font-size: 20px;
+}
+
+header{
+    text-align: center;
+    background-image: url(https://img.freepik.com/premium-vector/cookies-pattern-background_9845-34.jpg?w=360);
+    background-size: 150px;
+}
+
+footer{
+    background-color: black;
+    color:white;
+}
+.MainBody{
+    background-color: #FFFDD0;
+    font-size: 20px;
+}
+
+
+section.feature-box.home{
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFDD0;
+}
+
+div.logo{
+    align-self: center;
+    margin-bottom: 0px;
+}
+p.logoText{
+    padding-left: 30%;
+    /*Padding will align text to be under the center of the image */
+    font-size: 20px;
+}
+
+button.orderButton
+{
+    background-image: url(https://t4.ftcdn.net/jpg/03/88/80/99/360_F_388809926_87rKqTigDmzM3qk6DunfrCFKm9GGxRQv.jpg);
+    background-size: 100px;
+}
+button.recipeButton{
+display: inline-block;
+padding: 10px;
+font-size: 15px;
+}
+
+
+
+.banana
+{
+background-image: url(https://t4.ftcdn.net/jpg/03/85/72/67/360_F_385726776_2KgzDmzFHanqlx9oPKbQusB9p0GqPCLH.jpg);
+}
+/*i did not change the size due to i liked how the backgroud showed naturally*/
+.chocolate
+{
+background-image: url(https://thumbs.dreamstime.com/z/chip-bg-milk-chocolate-chips-isolated-white-background-196182449.jpg);
+background-size: 100px;
+color: blue;
+}
+/*colors were added to make the text more readable*/
+.oatmeal
+{
+background-image: url(https://m.media-amazon.com/images/M/MV5BZDhiMjNiYTYtN2I0Zi00YWI4LTk5MjMtZDU3MTFiZGQ5YWNlXkEyXkFqcGdeQXVyMjk1MzE1OA@@._V1_.jpg);
+background-size: 100px;
+color: white;
+}
+.contactText{
+    font-size: 25px;
+}
+    
